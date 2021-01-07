@@ -1,0 +1,97 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #fff;
+    line-height: 1.6;
+}
+
+body p {
+    color: #813030;
+}
+
+#showcase {
+    background-image: url('../img/pexels-sebastian-voortman-189349.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#showcase h1 {
+    font-size: 50px;
+    line-height: 1.2;
+    color: white;
+}
+
+#showcase p {
+    font-size: 20px;
+    color: white;
+}
+
+#showcase .button {
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    border: #d16969 2px solid;
+    background: #d16969 ;
+    padding: 10px 20px;
+    margin-top: 20px ;
+    border-radius: 10px;
+    position: absolute;
+    top: 58vh;
+}
+
+#showcase .button:hover {
+    background: #d16969 ;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 20px;
+    transition: all 300ms;
+}
+
+#section-a {
+    padding: 20px;
+    background: #f3eded;
+    text-align: center;
+}
+
+#section-b {
+    padding: 20px;
+    background: #ffffff;
+    text-align: center;
+}
+
+#section-c {
+    display: flex;
+}
+
+
+#section-c .box-1, #section-c .box-3 {
+    background: #f3eded;
+}
+
+#section-c div {
+    padding: 20px;
+}
+
+@media(max-width: 600px), (max-height: 600px) {
+    #showcase p {
+        display: none;
+    }
+
+    #showcase .button {
+        top: 60vh;
+    }
+}
